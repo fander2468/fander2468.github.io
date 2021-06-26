@@ -59,7 +59,9 @@ body {
 }
 
 /* HEADER SECTION AREA */
-
+.book_2 {
+    display: none;
+}
 
 .logo {
     width: 150px;
@@ -246,6 +248,18 @@ footer {
     }
     .item {
         width: 40%;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .book {
+        display: none;
+    }
+
+    .book_2 {
+        display: inline;
+        padding: 6px 0;
+        width: 100%;
+        color: #707071;
     }
   }
 
