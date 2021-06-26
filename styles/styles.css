@@ -1,0 +1,81 @@
+
+/* DEFAULT THE BROWSER */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+
+
+
+/* BODY BACKGROUND IMAGE */
+ main {
+    background-image: url(background.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .box {
+     width: 100%;
+     height: 800px;
+ }
+
+
+/* HEADER SECTION AREA */
+header {
+    background-color: #B9AC9D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+}
+
+.logo {
+    width: 290px;
+    clip-path: circle();
+    cursor: pointer;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s ease 0s;
+}
+
+a:hover {
+    color: #E4FFE1;
+    transition: all 0.5s ease 0s;
+}
+a:active {
+    color: #6A8D73;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: rgba(51, 25, 34, 1);
+    color:rgb(240, 236, 232);
+    border: none;
+    border-radius: 50px;
+}
+
+/* MAIN CONTENT SECTION */
+
+
+
+/* PROJECT SECTION AREA */
+
+

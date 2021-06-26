@@ -1,0 +1,296 @@
+
+/* DEFAULT THE BROWSER */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+
+
+
+/* BODY BACKGROUND IMAGE */
+ .background_image {
+    background-image: url(background.jpeg);
+    min-height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+.about {
+    height: 100%;
+    padding: 15px 0;
+    text-align: center;
+    }
+
+    span {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .about p {
+        width: 60%;
+        margin: auto;
+        text-align: left;
+        padding: 25px 0;
+    }
+
+ .background_image2 {
+    background-image: url(laptop-2838921_1920.jpeg);
+    min-height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .box {
+     width: 100%;
+     height: 800px;
+ }
+body {
+    position: relative;
+    padding-bottom: 96px;
+    min-height: 100vh;
+}
+
+/* HEADER SECTION AREA */
+
+
+.logo {
+    width: 150px;
+    clip-path: circle();
+    cursor: pointer;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+.book:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #000;
+    transition: all 0.5s ease 0s;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #331922;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s ease 0s;
+}
+
+a:hover {
+    color: #486d51;
+    transition: all 0.5s ease 0s;
+}
+a:active {
+    color: #6A8D73;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.book {
+    padding: 10px 25px;
+    background-color: rgba(51, 25, 34, 1);
+    color:rgb(240, 236, 232);
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+}
+
+/* MAIN CONTENT SECTION */
+main {
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 40px 0;
+    height: 100%;
+}
+
+#services h2 {
+    padding: 25px 0;
+}
+
+.box1 {
+    padding: 0 35px;
+    line-height: 1.5;
+}
+
+/* PROJECT SECTION AREA */
+
+#projects {
+    background-color: #585858;
+    padding: 25px 0 70px 0;
+    color: #FFF;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    width: 30%;
+    margin: 50px 0;
+
+}
+
+.item img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* SOCIAL ICONS */
+footer {
+    background-color: #B9AC9D;
+    padding-top: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.social_icons {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.space_between {
+    margin: 0 20px
+}
+
+.space {
+    margin: 5px 0;
+}
+
+.space_arrow {
+    margin-top: 10px;
+}
+
+.copy {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    text-align: center;
+}
+
+/* CONTACT ME PAGE */
+
+.contact {
+    border-top: 1px #000 solid;
+}
+.contact h4 {
+    width: 40%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#button_color {
+    background-color: #000;
+    border-color: #000;
+}
+.row p {
+    text-align: center;
+}
+
+.row {
+    width: 60%;
+    padding-top: 60px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1140px) {
+    
+    .projects {
+        justify-content: space-evenly;
+    }
+    .item {
+        width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 890px) {
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .item {
+        width: 100%;
+        margin: 20px 0;
+    
+    }
+    
+    .item img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 0 40px 0;
+        
+    }
+
+    footer {
+        font-size: .8rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 800px) {
+    .row {
+        width: 80%
+        
+    }
+    
+    
+  }
